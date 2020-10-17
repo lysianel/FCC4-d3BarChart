@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+
+body{
+	font-family: 'Oxygen', sans-serif;
+	background-color: #0f3057;
+	color:white;
+	text-align: center;
+}
+
+#chart{
+	margin:auto;
+	position: relative;
+}
+
+#chart text{
+	font-size:0.9rem;
+}
+
+
+#x-axis, #y-axis{
+	font:inherit;
+	font-size:0.6rem;
+}
+
+#tooltip{
+	background-color: #3288ed;
+	padding: 5px;
+	border-radius: 2px;
+	font-size: 0.7rem;
+}
+
+#legend{
+	text-align: right;
+	padding-right: 50px;
+	font-size: 0.7rem;
+}
